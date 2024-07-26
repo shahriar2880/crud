@@ -1,0 +1,83 @@
+/* body{
+    margin: 0;
+    padding:0;
+} */
+.heading {
+  text-align: center;
+  background-color: teal;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.heading h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.nav ul li a {
+  display: inline-block;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+}
+.nav ul li a:hover {
+  background-color: blue;
+  color: white;
+}
+.record h1 {
+  margin: 0;
+  padding: 15px 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 97%;
+  margin-left: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+.action {
+  background-color: slateblue;
+  color: white;
+  margin: 2px 15px;
+  text-decoration: none;
+  padding: 4px;
+}
+.action1 {
+  width: 150px;
+}
+
+
+.form-control{
+  background-color: rgb(151, 28, 151);
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+label{
+  width: 25%;
+  float:left;
+}
+input {
+  width:75%;
+  float:left;
+}
+select{
+  flex-grow: 1;
+}
