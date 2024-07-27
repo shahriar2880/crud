@@ -24,16 +24,16 @@ include 'header.php'
         </thaed>
         <tbody>
             <?php
-                while($data = mysqli_fetch_assoc($result)){
+                while($row = mysqli_fetch_assoc($result)){
             ?>
             <tr>
-                <td><?php echo $data["sid"] ?></td>
-                <td><?php echo $data["sname"] ?></td>
-                <td><?php echo $data["saddress"] ?></td>
-                <td><?php echo $data["cname"] ?></td>
-                <td><?php echo $data["sphone"] ?></td>
+                <td><?php echo $row["sid"] ?></td>
+                <td><?php echo $row["sname"] ?></td>
+                <td><?php echo $row["saddress"] ?></td>
+                <td><?php echo $row["cname"] ?></td>
+                <td><?php echo $row["sphone"] ?></td>
                 <td  class="action1">
-                    <a href="edit.php" class="action">Edit</a> 
+                    <a href="edit.php?id=<?php echo $row['sid'] ?>" class="action">Edit</a> 
                     <a href="delete-inline.php" class="action">Delete</a></td>
             </tr>
             <?php } ?>

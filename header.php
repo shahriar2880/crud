@@ -13,7 +13,7 @@
       <ul>
         <li><a href="index.php">HOME</a></li>
         <li><a href="add.php">ADD</a></li>
-        <li><a href="">UPDATE</a></li>
+        <li><a href="update.php">UPDATE</a></li>
         <li><a href="delete-inline.php">DELETE</a></li>
       </ul>
     </div>
